@@ -1,0 +1,33 @@
+section{
+    padding: 5% 30%;
+    background-image: url(1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.container{
+    background-color: white;
+    border-radius: 40px;
+    padding: 5% 10%;
+}
+
+.invalidname{
+    color: #dc3545;
+}
+i,h4{
+    display: inline;
+}
+.modal-body{
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    section{
+        padding: 15% 8%;
+    }
+    .container{
+        padding: 10% 8%;
+        border-radius: 35px;
+    }
+  }
