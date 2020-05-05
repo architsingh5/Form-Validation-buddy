@@ -6,7 +6,7 @@ let validScholar = false;
 let validName = false;
 
 name.addEventListener('blur', function (){
-    let regex = /^[A-Za-z]+/;
+    let regex = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
     let str = name.value;
     if(regex.test(str)){
         name.classList.remove('is-invalid');
