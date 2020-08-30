@@ -2,7 +2,7 @@ section{
     padding: 5% 30%;
     background-image: url(1.jpg);
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 .container{
     background-color: white;
